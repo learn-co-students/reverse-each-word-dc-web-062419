@@ -10,7 +10,7 @@ end
 =end
 
 
-def reverse_each_word1(string)
+def reverse_each_word(string)
 
   a = string.split(" ")
  
