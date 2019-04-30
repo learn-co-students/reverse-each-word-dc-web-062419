@@ -1,4 +1,4 @@
-= begindef reverse_each_word(string)
+=begin def reverse_each_word(string)
 
   a = string.split(" ")
   b=[]
@@ -7,15 +7,15 @@
   end
 b.join(" ")
 end
+=end
 
 
-=begin def reverse_each_word1(string)
+def reverse_each_word1(string)
 
   a = string.split(" ")
  
- b =  a.collect do |word|
+ a.collect do |word|
    word.reverse
   end
 b.join(" ")
 end
-=end
