@@ -8,7 +8,7 @@ def reverse_each_word(string)
 b.join(" ")
 end
 
-def reverse_each_word(string)
+def reverse_each_word1(string)
 
   a = string.split(" ")
   b=[]
